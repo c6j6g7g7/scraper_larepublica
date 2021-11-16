@@ -1,0 +1,5 @@
+#links = //div[contains(@class, "news")]/a[contains(@class,"kicker")]/@href
+links = //div[contains(@class, "V")]/a[contains(@class, "kicker")]/@href
+title = //div/span[contains(@class, "kicker")]/following-sibling::h2/a/text()
+summary = //div[contains(@class,"article-wrapper")]/div/div[contains(@class, "news")]/div[@class="lead"]/p/text()
+body = //div[contains(@class,"article-wrapper")]/div/div[contains(@class, "news")]/div[@class="html-content"]/p[not(@class)]/text() 
